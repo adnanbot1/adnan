@@ -36,12 +36,12 @@ global.owner = [
   ['595992611272']
 ];
 
-global.suittag = ['5219993404349'];
-global.prems = ['51995386439'];
+global.suittag = ['967734144053'];
+global.prems = ['967734144053'];
 
 global.packname = 'Sticker';
-global.author = 'The Mystic - Bot';
-global.wm = 'The Mystic - Bot';
+global.author = 'ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠 - Bot';
+global.wm = 'ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠 - Bot';
 global.titulowm = 'The Mystic - Bot';
 global.titulowm2 = `The Mystic - Bot`
 global.igfg = 'The Mystic - Bot';
