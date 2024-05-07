@@ -53,7 +53,7 @@ ${tradutor.texto4} @${room.game.currentTurn.split('@')[0]}
       state: 'WAITING'};
     if (text) room.name = text;
     const imgplay = `https://cope-cdnmed.agilecontent.com/resources/jpg/8/9/1590140413198.jpg`;
-    conn.reply(m.chat, `${tradutor.texto5[0]} ${usedPrefix}|مغادره|delttt|خروج|*\n\n${tradutor.texto5[1]} (${usedPrefix + command} ${text})`, m);
+    conn.reply(m.chat, `${tradutor.texto5[0]} ${usedPrefix} delttt*\n خروج*\n${tradutor.texto5[1]} (${usedPrefix + command} ${text})`, m);
     // conn.sendButton(m.chat, `*🕹 𝐓𝐑𝐄𝐒 𝐄𝐍 𝐑𝐀𝐘𝐀 🎮*\n\n*◉ 𝙴𝚂𝙿𝙴𝚁𝙰𝙽𝙳𝙾 𝙰𝙻 𝚂𝙴𝙶𝚄𝙽𝙳𝙾 𝙹𝚄𝙶𝙰𝙳𝙾𝚁*\n*◉ 𝙿𝙰𝚁𝙰 𝙱𝙾𝚁𝚁𝙰𝚁 𝙾 𝚂𝙰𝙻𝙸𝚁𝚂𝙴 𝙳𝙴 𝙻𝙰 𝙿𝙰𝚁𝚃𝙸𝙳𝙰 𝚄𝚂𝙴𝙽 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 ${usedPrefix}delttt*`, wm, imgplay, [['𝚄𝙽𝙸𝚁𝚂𝙴 𝙰 𝙻𝙰 𝙿𝙰𝚁𝚃𝙸𝙳𝙰', `${usedPrefix + command} ${text}`]], m, { mentions: conn.parseMention(text) })
     conn.game[room.id] = room;
   }
