@@ -58,5 +58,5 @@ ${tradutor.texto4} @${room.game.currentTurn.split('@')[0]}
     conn.game[room.id] = room;
   }
 };
-handler.command = /^(|اكس|كباس|ttt|xo)$/i;
+handler.command = /^(||رعد|سلطان|ميكسا|ستلوح|اكس|كباس|ttt|xo)$/i;
 export default handler;
