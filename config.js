@@ -12,7 +12,7 @@ global.confirmCode = ""
 
 global.owner = [
   ['967734144053', '👑 ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠 - عمك 👑', true],
-  ['51940617554', '💫 Mystic - Collaborator 2 💫', true],
+  ['51940617554', '💫 عمك - ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠 💫', true],
   ['51996089079', '💫 Mystic - Collaborator 3 💫', true],
   ['5218442286089', '💫 Mystic - Collaborator 4 💫', true],
   ['50246028932', '💫 Mystic - Collaborator 5 💫', true],
@@ -40,11 +40,11 @@ global.suittag = ['967734144053'];
 global.prems = ['967734144053'];
 
 global.packname = 'Sticker';
-global.author = 'ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠 - Bot';
-global.wm = 'ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠 - Bot';
-global.titulowm = 'The Mystic - Bot';
-global.titulowm2 = `The Mystic - Bot`
-global.igfg = 'The Mystic - Bot';
+global.author = 'ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠 - بوت';
+global.wm = 'ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠 - بوت';
+global.titulowm = 'ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠 - بوت';
+global.titulowm2 = `ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠 - بوت`
+global.igfg = 'ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠 - بوت';
 global.wait = '*[ ⏳ ] Cargando...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
