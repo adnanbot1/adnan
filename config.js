@@ -69,9 +69,9 @@ global.mes = d.toLocaleDateString('ar', {month: 'long'});
 global.año = d.toLocaleDateString('ar', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nThe Mystic - Bot`;
-global.gt = 'The Mystic - Bot';
-global.mysticbot = 'The Mystic - Bot';
+global.wm2 = `${dia} ${fecha}\nThe ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠 - Bot`;
+global.gt = 'The ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠 - Bot';
+global.mysticbot = 'The ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠 - Bot';
 global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.waitt = '*[ ⏳ ] Cargando...*';
