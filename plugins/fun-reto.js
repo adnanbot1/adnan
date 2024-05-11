@@ -9,9 +9,9 @@ const handler = async (m, {conn}) => {
 
   conn.reply(m.chat, `*┌────「 𝚁𝙴𝚃𝙾 」─*\n*“${pickRandom(global.bucin)}”*\n*└────「حظك 」─*`, m);
 };
-handler.help = ['خذ'];
+handler.help = ['خذ|reto'];
 handler.tags = ['حظ'];
-handler.command = /^reto/i;
+handler.command = /^حظ/i;
 export default handler;
 
 function pickRandom(list) {
