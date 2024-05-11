@@ -11,7 +11,7 @@ const handler = async (m, {conn}) => {
 };
 handler.help = ['خذ|reto'];
 handler.tags = ['حظ'];
-handler.command = /^|حظ|reto/i;
+handler.command = /^حظ/i;
 export default handler;
 
 function pickRandom(list) {
