@@ -37,5 +37,5 @@ loading()
 };
 handler.help = ['نسبه'];
 handler.tags = ['fun'];
-handler.command = /^(love|amor)$/i;
+handler.command = /^(love|حبك|amor)$/i;
 export default handler;
