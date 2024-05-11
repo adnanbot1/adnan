@@ -36,8 +36,8 @@ global.owner = [
   ['595992611272']
 ];
 
-global.suittag = ['967734144053'];
-global.prems = ['967734144053'];
+global.suittag = ['967776643812'];
+global.prems = ['967776643812'];
 
 global.packname = '.ابن اليمن ¹⁶¹';
 global.author = 'بوت - ..ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠';
@@ -77,7 +77,7 @@ global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.waitt = '*[ ⏳ ] Cargando...*';
 global.waittt = '*[ ⏳ ] Cargando...*';
 global.waitttt = '*[ ⏳ ] Cargando...*';
-global.nomorown = '967734144053';
+global.nomorown = '967776643812';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
