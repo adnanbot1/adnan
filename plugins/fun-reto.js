@@ -7,10 +7,10 @@ const handler = async (m, {conn}) => {
 
   global.bucin = tradutor.texto1;
 
-  conn.reply(m.chat, `*┌────「 𝚁𝙴𝚃𝙾 」─*\n*“${pickRandom(global.bucin)}”*\n*└────「 𝙼𝚈𝚂𝚃𝙸𝙲 」─*`, m);
+  conn.reply(m.chat, `*┌────「 𝚁𝙴𝚃𝙾 」─*\n*“${pickRandom(global.bucin)}”*\n*└────「حظك 」─*`, m);
 };
-handler.help = ['reto'];
-handler.tags = ['fun'];
+handler.help = ['خذ'];
+handler.tags = ['حظ'];
 handler.command = /^reto/i;
 export default handler;
 
