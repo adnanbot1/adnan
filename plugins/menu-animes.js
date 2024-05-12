@@ -34,8 +34,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┏━━━━━━━━━━━━━━━━┓
 ┃ *< ${tradutor.texto1[0]} />*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ඬ⃟ 🧿 _${usedPrefix}lolivid_
-┣ ඬ⃟ 🧿 _${usedPrefix}loli_
+┣ ඬ⃟ 🧿 _${usedPrefix}لولي_
+┣ ඬ⃟ 🧿 _${usedPrefix}لول_
 ┣ ඬ⃟ 🧿 _${usedPrefix}ppcouple_
 ┣ ඬ⃟ 🧿 _${usedPrefix}neko_
 ┣ ඬ⃟ 🧿 _${usedPrefix}waifu_
