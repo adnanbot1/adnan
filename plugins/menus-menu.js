@@ -171,7 +171,7 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
   ${tradutor.texto1[15]}
 
  ▢ _${usedPrefix}play *<txt>*_
- ▢ _${usedPrefix}play2 *<txt>*_
+ ▢ _${usedPrefix}شغل_
  ▢ _${usedPrefix}play.1 *<txt>*_
  ▢ _${usedPrefix}play.2 *<txt>*_
  ▢ _${usedPrefix}playdoc *<txt>*_
@@ -223,7 +223,7 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
   ${tradutor.texto1[17]}
 
   ▢ _${usedPrefix}add *num>*_
-  ▢ _${usedPrefix}kick *<@tag>*_
+  ▢ _${usedPrefix}طرد *<منشن الرقم الي بتطرده>*_
   ▢ _${usedPrefix}kick2 *<@tag>*_
   ▢ _${usedPrefix}listanum *<txt>*_
   ▢ _${usedPrefix}kicknum *<txt>*_
