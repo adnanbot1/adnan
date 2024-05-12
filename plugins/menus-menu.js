@@ -57,7 +57,7 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
   ▢ _${usedPrefix}lang_ ${tradutor.texto2}
   ▢ _${usedPrefix}langgroup_ ${tradutor.texto3}
   ▢ _${usedPrefix}بحث_
- 
+  ▢ _${usedPrefix}صوره_
   ${tradutor.texto1[11]}
 
   ▢ _${usedPrefix}terminosycondiciones_
