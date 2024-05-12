@@ -88,7 +88,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     conn.reply(m.chat, tradutor.texto1[3], m);
   }
 };
-handler.command = /^(animes|menuanimes)$/i;
+handler.command = /^(animes|انمي)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;
