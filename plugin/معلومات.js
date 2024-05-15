@@ -38,8 +38,7 @@ ${tradutor.texto1[16]}
   const buttonMessage= {
     'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
     'mimetype': `application/${document}`,
-    'fileName': `「  اهلا بك في بوت لوسيفار 
-」`,
+    'fileName': `「  اهلا بك في بوت لوسيفار 」`,
     'fileLength': 967735339177,
     'pageCount': 200,
     'contextInfo': {
