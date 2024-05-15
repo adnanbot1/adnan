@@ -7,7 +7,7 @@ const split = '|';
 const handler = async (m, {conn, args: [effect], text: txt, usedPrefix, command, name}) => {
   const datas = global
   const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const _translate = JSON.parse(fs.readFileSync(`./language/${ar}.json`))
   const tradutor = _translate.plugins.maker_logos
 
   if (!effect) throw tradutor.texto1 + effects.map((v) => v.title).join('\n° ඬ⃟📝 #logo ');
@@ -25,7 +25,7 @@ const handler = async (m, {conn, args: [effect], text: txt, usedPrefix, command,
 };
 handler.help = ['logos'];
 handler.tags = ['nulis'];
-handler.command = /^(logo|logos|logos2)$/i;
+handler.command = /^(لوجو|logos|logos2)$/i;
 export default handler;
 
 var effects = [
