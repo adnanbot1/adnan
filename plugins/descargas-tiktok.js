@@ -11,7 +11,7 @@ const CFROSAPI = global.APIs.CFROSAPI;
 const handler = async (m, {conn, text, args, usedPrefix, command}) => {
   const datas = global
   const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const _translate = JSON.parse(fs.readFileSync(`./language/${ar}.json`))
   const tradutor = _translate.plugins.descargas_tiktok
 
 
@@ -62,7 +62,7 @@ const handler = async (m, {conn, text, args, usedPrefix, command}) => {
     }
   }
 };
-handler.command = /^(tiktok|ttdl|tiktokdl|tiktoknowm|tt|ttnowm|tiktokaudio)$/i;
+handler.command = /^(تيك|ttdl|tiktokdl|tiktoknowm|tt|ttnowm|tiktokaudio)$/i;
 export default handler;
 
 async function tiktokdlF(url) {
