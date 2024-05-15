@@ -3,7 +3,7 @@ import fs from 'fs';
 const handler = async (m, {conn, args}) => {
   const datas = global
   const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const _translate = JSON.parse(fs.readFileSync(`./language/${ar}.json`))
   const tradutor = _translate.plugins.gc_link
 
   const group = m.chat;
@@ -14,9 +14,9 @@ const handler = async (m, {conn, args}) => {
       previewType: 0, thumbnail: fs.readFileSync('./Menu2.jpg'),
       sourceUrl: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`}}});
 };
-handler.help = ['linkgroup'];
+handler.help = ['لينك'];
 handler.tags = ['group'];
-handler.command = /^link(gro?up)?$/i;
+handler.command = /^لينك(gro?up)?$/i;
 handler.group = true;
 handler.botAdmin = true;
 export default handler;
