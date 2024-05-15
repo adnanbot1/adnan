@@ -20,7 +20,7 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
   teks += `*└* حضور!\n\n*مالك القروب يناديكم*`;
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
 };
-handler.help = ['tagall <mesaje>', 'invocar <mesaje>'];
+handler.help = ['بكم <mesaje>', 'مرحبأ <mesaje>'];
 handler.tags = ['group'];
 handler.command = /^(منشن|invocar|invocacion|منشن|invocación)$/i;
 handler.admin = true;
