@@ -3,7 +3,7 @@
 const handler = async (m, {conn, usedPrefix}) => {
   const datas = global
   const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const _translate = JSON.parse(fs.readFileSync(`./language/${ar}.json`))
   const tradutor = _translate.plugins.info_host
 
   const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
@@ -38,8 +38,9 @@ ${tradutor.texto1[16]}
   const buttonMessage= {
     'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
     'mimetype': `application/${document}`,
-    'fileName': `「  𝑯𝒆𝒍𝒍𝒐 𝑾𝒐𝒓𝒍𝒅 」`,
-    'fileLength': 99999999999999,
+    'fileName': `「  اهلا بك في بوت لوسيفار 
+」`,
+    'fileLength': 967735339177,
     'pageCount': 200,
     'contextInfo': {
       'forwardingScore': 200,
@@ -51,7 +52,7 @@ ${tradutor.texto1[16]}
         'title': tradutor.texto2,
         'body': wm,
         'thumbnail': imagen1,
-        'sourceUrl': 'https://whatsapp.com/channel/0029VaFVSkRCMY0KFmCMDX2q'}},
+        'sourceUrl': 'https://wa.me/+967735339177'}},
     'caption': text,
     'footer': wm,
     // 'buttons':[
@@ -60,5 +61,5 @@ ${tradutor.texto1[16]}
     'headerType': 6};
   conn.sendMessage(m.chat, buttonMessage, {quoted: m});
 }; 
-handler.command = ['host', 'cafirexos'];
+handler.command = ['سكربت', 'cafirexos'];
 export default handler;
