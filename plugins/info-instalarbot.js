@@ -4,7 +4,7 @@
 const handler = async (m, {conn, usedPrefix}) => {
   const datas = global
   const idioma = datas.db.data.users[m.sender].language
-  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
+  const _translate = JSON.parse(fs.readFileSync(`./language/ar.json`))
   const tradutor = _translate.plugins.info_instalarbot
 
   const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
@@ -13,7 +13,7 @@ const handler = async (m, {conn, usedPrefix}) => {
   const buttonMessage= {
     'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
     'mimetype': `application/${document}`,
-    'fileName': `「  𝑯𝒆𝒍𝒍𝒐 𝑾𝒐𝒓𝒍𝒅 」`,
+    'fileName': `「  مرحبا في بوت لوسيفار `,
     'fileLength': 99999999999999,
     'pageCount': 200,
     'contextInfo': {
