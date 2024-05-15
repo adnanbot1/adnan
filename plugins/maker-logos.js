@@ -23,7 +23,7 @@ const handler = async (m, {conn, args: [effect], text: txt, usedPrefix, command,
    if (typeof res == 'number') throw res == -1 ? `${tradutor.texto4[0]} ${effect} ${tradutor.texto4[1]}` : `${tradutor.texto4[2]} ${usedPrefix + command} ${effect} ${new Array(res).fill('texto').map((v, i) => v + (i ? i + 1 : '')).join('|')}*`;
   await conn.sendMessage(m.chat, {image: {url: res.image}, caption: `${tradutor.texto5} ${effect}*`}, {quoted: m});  
 };
-handler.help = ['logos'];
+handler.help = ['لوجو'];
 handler.tags = ['nulis'];
 handler.command = /^(لوجو|logos|logos2)$/i;
 export default handler;
