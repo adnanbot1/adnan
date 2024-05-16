@@ -11,9 +11,9 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-  ['967734144053', '👑 ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠 - عمك 👑', true],
-  ['51940617554', '💫 عمك - ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠 💫', true],
-  ['51996089079', '💫 Mystic - Collaborator 3 💫', true],
+  ['967776643812', 'بوت لوسيفار', true],
+  ['967735339177', 'لوسيفار', true],
+  ['51996089079', 'لوسيفار', true],
   ['5218442286089', '💫 Mystic - Collaborator 4 💫', true],
   ['50246028932', '💫 Mystic - Collaborator 5 💫', true],
   ['5212412377467', '💫 Mystic - Collaborator 6 💫', true],
@@ -36,15 +36,15 @@ global.owner = [
   ['595992611272']
 ];
 
-global.suittag = ['967776643812'];
+global.suittag = ['967735339177'];
 global.prems = ['967776643812'];
 
-global.packname = '.ابن اليمن ¹⁶¹';
-global.author = 'بوت - ..ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠';
-global.wm = 'ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠 - بوت';
-global.titulowm = 'ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠 - بوت';
-global.titulowm2 = `ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠 - بوت`
-global.igfg = 'ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠 - بوت';
+global.packname = 'لوسيفار';
+global.author = 'بوت لوسيفار';
+global.wm = 'بوت لوسيفار';
+global.titulowm = 'لوسيفار';
+global.titulowm2 = `بوت لوسيفار`
+global.igfg = 'لوسيفار';
 global.wait = '*[ ⏳ ] Cargando...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -69,11 +69,11 @@ global.mes = d.toLocaleDateString('ar', {month: 'long'});
 global.año = d.toLocaleDateString('ar', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nThe ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠 - Bot`;
-global.gt = 'The ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠 - Bot';
-global.mysticbot = 'The ڪَباؘسِ丫:١⁶𝑘𝑎𝑝𝑎𝑠 - Bot';
-global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
-global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
+global.wm2 = `${dia} ${fecha}\nThe بوت لوسيفار`;
+global.gt = 'The لوسيفار';
+global.mysticbot = 'بوت لوسيفار';
+global.md = 'https://wa.me/+967735339177';
+global.mysticbot = 'https://wa.me/+967735339177';
 global.waitt = '*[ ⏳ ] Cargando...*';
 global.waittt = '*[ ⏳ ] Cargando...*';
 global.waitttt = '*[ ⏳ ] Cargando...*';
